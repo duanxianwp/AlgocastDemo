@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author wp
  * @date 2019/7/2
  */
-public class 序数组中求和为给定值的两个数 {
+public class 有序数组中求和为给定值的两个数 {
 
     public static void main(String[] args) {
 

@@ -12,10 +12,11 @@ public class 数组的全排列 {
 
     public static void main(String[] args) {
 
-
+        int[] input = new int[]{1,2,3};
+        permute(input);
     }
 
-    private void permuteRec(List<Integer> nums, int start, List<List<Integer>> result) {
+    private static void permuteRec(List<Integer> nums, int start, List<List<Integer>> result) {
 
         if (start == nums.size()) {
             result.add(new ArrayList<>(nums));
@@ -31,7 +32,7 @@ public class 数组的全排列 {
     }
 
 
-    private List<List<Integer>> permute(int[] nums) {
+    private static List<List<Integer>> permute(int[] nums) {
 
         List<List<Integer>> result = new ArrayList<>();
         if (nums == null || nums.length == 0) {
